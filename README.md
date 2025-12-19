@@ -1,9 +1,5 @@
 PRELOADER FEATURE
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 
 
 
@@ -36,7 +32,7 @@ In the head, just paste this
         font-family: Arial;
       }
     </style>
-
+```
 
 
  In the body, just paste this
@@ -61,5 +57,4 @@ In the head, just paste this
     </script>
 
 ```
-  </body>
-</html>
+
