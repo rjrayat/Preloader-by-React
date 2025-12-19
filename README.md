@@ -43,18 +43,16 @@ In the head, just paste this
       <div class="icon">f</div>
     </div>
 
-    <div id="root"></div>
-
-    <script>
-      // Remove loader when React is fully loaded
-      window.addEventListener("load", () => {
-        const loader = document.getElementById("global-loader");
-        if (loader) {
-          loader.style.opacity = "0";
-          setTimeout(() => loader.remove(), 300);
-        }
-      });
-    </script>
+   
 
 ```
+
+main.jsx 
+```
+const loader = document.getElementById("global-loader");
+if (loader) {
+  loader.style.opacity = "0";
+  loader.style.transition = "opacity 0.3s ease";
+  setTimeout(() => loader.remove(), 300);
+}
 
